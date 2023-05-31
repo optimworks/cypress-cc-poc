@@ -1,0 +1,10 @@
+{
+  "apiUrl": "https://magento.softwaretestingboard.com/customer/account/login/referer/aHR0cHM6Ly9tYWdlbnRvLnNvZnR3YXJldGVzdGluZ2JvYXJkLmNvbS8%2C/",
+  "credentials" : {
+    "email" : "optimworks@yopmail.com",
+    "password" : "Optimworks@Luma"
+  },
+  "productNames": {
+    "fusionProduct": "Fusion Backpack"
+  }
+}
