@@ -14,6 +14,6 @@ export default class AccountDetailsPage {
     }
     
     verifyContactEmail(email: string | number | RegExp){
-        cy.get(locator.verifyemail).contains(email)
+        cy.get(locator.verifyemail).should("contain",email);
     }
 }

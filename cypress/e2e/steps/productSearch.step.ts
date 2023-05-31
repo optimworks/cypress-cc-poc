@@ -6,11 +6,14 @@ import HomePage from '../../pages/Homepage';
 const homePage = new HomePage();
 let testData;
 
-
 before(function () {
     cy.fixture('testData').then(function (data) {
         testData = data;
     })
+})
+
+Given("Login to the application using custom command", () => {
+    cy.login(Cypress.env('url'), testData.credentials.email, testData.credentials.password);
 })
 
 Given("Search a product with product name", () => {
