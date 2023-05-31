@@ -70,4 +70,17 @@ export default class HomePage {
             expect(value).to.contain("Sale");
         })
     }
+
+    verifyAddToCartInProductDetailsPage(){
+        cy.get(locator.verifyAddCart).should('be.visible');
+        cy.get(locator.verifyAddCart).should('not.be.disabled');
+    }
+
+    verifyAddTowishlistInProductDetailsPage(){
+        cy.get(locator.verifyAddTowishlist).should('have.text','Add to Wish List')
+    }
+
+    verifyToCompareButtonInProductDetailsPage(){
+        cy.get(locator.verifyToCompareButton).should('have.text','Add to Compare')
+    }
 }

@@ -28,3 +28,15 @@ Then("Verify product name in product details page", () => {
         url: "https://magento.softwaretestingboard.com/fusion-backpack.html"
     })
 })
+
+Then("Verify add to cart button in product details page",()=>{
+    homePage.verifyAddToCartInProductDetailsPage();
+})
+
+Then("Verify add to wishlist button in product details page",()=>{
+    homePage.verifyAddTowishlistInProductDetailsPage();
+})
+
+Then("Verify to-compare text in product details page",()=>{
+homePage.verifyToCompareButtonInProductDetailsPage();
+})

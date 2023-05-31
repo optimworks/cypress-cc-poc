@@ -11,4 +11,7 @@ export class homePageLocators {
     static verifyWhatsNewSection = '.sections .nav-1';
     static verifyGearSection = '.sections .nav-4';
     static verifySaleSection = '.sections .nav-6';
+    static verifyAddCart ='[title="Add to Cart"]';
+    static verifyAddTowishlist = '.towishlist span';
+    static verifyToCompareButton = '.tocompare span';
 }

@@ -15,3 +15,6 @@ Feature: Product Search
     Given Search a product with product name
     And Click on the first product
     Then Verify product name in product details page
+    Then Verify add to cart button in product details page
+    Then Verify add to wishlist button in product details page
+    Then Verify to-compare text in product details page
